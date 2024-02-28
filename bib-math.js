@@ -12,5 +12,13 @@ const numeroEhPrimo = (numero) => {
 
     return result
 }
-
 export default numeroEhPrimo;
+
+const somatorio = (...variaveis) => {
+    console.log(variaveis)
+    for(const v in variaveis) {
+        console.log(variaveis[v])
+    }
+}
+
+somatorio(2,3,8,10,15)
