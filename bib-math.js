@@ -1,5 +1,3 @@
-const ehPrimo = function() {}
-
 const numeroEhPrimo = (numero) => {
     let divisores = 0;
     let result = true;
